@@ -31,12 +31,17 @@ RelativeLayout rl;
 
         if(haveNetwork()){
             Logolauncher logolauncher = new Logolauncher();
+            
             logolauncher.start();
         }
         else if(!haveNetwork()){
 
             Toast.makeText(SplashScreen.this,"No network",Toast.LENGTH_SHORT).show();
         }
+        
+        
+        
+        
 
     }
 
